@@ -5,7 +5,7 @@ variable "instance_id" {
 
 variable "start_schedule" {
    type = string
-   default = "cron(05 05 ? * MON-FRI *)"
+   default = "cron(15 05 ? * MON-FRI *)"
 }
 
 variable "stop_schedule" {
